@@ -5,7 +5,7 @@ from decimal import Decimal, InvalidOperation
 
 from dateutil import parser as date_parser
 
-from .models import Category, CategoryRule, Transaction
+from .models import CategoryRule, Transaction
 
 # Accept a handful of common header spellings across bank exports.
 DATE_FIELDS = {"date", "transaction date", "posted date"}
